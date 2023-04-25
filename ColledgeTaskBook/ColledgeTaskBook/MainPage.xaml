@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColledgeTaskBook.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="CadetBlue">
+            <Label HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold" Text="Book" x:Name="Txa"/>
+        </Frame>
+        <ScrollView x:Name="ScrollItems">
+            <StackLayout BackgroundColor="#222222" x:Name="Items" Padding="10">
+
+                
+                
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
